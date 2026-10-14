@@ -18,7 +18,7 @@ jobs:
     
     steps:
       - name: Validate label presence and correctness
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             // Get issue from payload or fetch if not available
